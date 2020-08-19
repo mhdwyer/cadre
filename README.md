@@ -1,2 +1,2 @@
-# cadre
+# Cadre
 A virtual workplace solution
