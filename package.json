@@ -1,0 +1,25 @@
+{
+  "name": "cadre",
+  "version": "1.0.0",
+  "description": "A virtual workplace solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdwyer/cadre.git"
+  },
+  "keywords": [
+    "cadre",
+    "virtual",
+    "workplace",
+    "remote"
+  ],
+  "author": "Michael H. Dwyer",
+  "license": "SEE LICENSE IN license.md",
+  "bugs": {
+    "url": "https://github.com/mhdwyer/cadre/issues"
+  },
+  "homepage": "https://github.com/mhdwyer/cadre#readme"
+}
