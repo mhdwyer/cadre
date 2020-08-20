@@ -1,10 +1,11 @@
 {
-  "name": "cadre",
+  "name": "cadre-workplace",
   "version": "1.0.0",
   "description": "A virtual workplace solution",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/mhdwyer/cadre/issues"
   },
-  "homepage": "https://github.com/mhdwyer/cadre#readme"
+  "homepage": "https://github.com/mhdwyer/cadre#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
