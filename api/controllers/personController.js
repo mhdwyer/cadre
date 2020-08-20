@@ -1,7 +1,7 @@
 'use strict';
 
 exports.list_all_persons = function(req, res) {
-    res.send('list persons');
+    res.json({});
 };
 
 exports.create_a_person = function(req, res) {
@@ -9,7 +9,15 @@ exports.create_a_person = function(req, res) {
 };
 
 exports.get_a_person = function(req, res) {
-    res.send('get a person');
+    res.json({
+        "name": "Michael Dwyer",
+        "avatar": 1,
+        "position-X": 40,
+        "position-Y": 50,
+        "status": 1,
+        "availability": "available",
+        "mood": "relaxed"
+    });
 };
 
 exports.update_a_person = function(req, res) {
