@@ -1,6 +1,6 @@
 {
-  "name": "cadre-workplace",
-  "version": "1.0.1",
+  "name": "cadre-workplace-api",
+  "version": "1.0.0",
   "description": "A virtual workplace solution",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   },
   "keywords": [
     "cadre",
+    "api",
     "virtual",
     "workplace",
     "remote"
