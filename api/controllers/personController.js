@@ -1,7 +1,24 @@
 'use strict';
 
 exports.list_all_persons = function(req, res) {
-    res.json({});
+    res.json([{
+        "name": "Michael Dwyer",
+        "email": "mhdwyer@hotmail.com",
+        "positionTop": 250,
+        "positionLeft": 380,
+        "status": 1,
+        "availability": "available",
+        "mood": "relaxed"
+    },{
+        "name": "Jennifer Dwyer",
+        "email": "jdwyercpa@hotmail.com",
+        "positionTop": 58,
+        "positionLeft": 360,
+        "status": 1,
+        "availability": "available",
+        "mood": "relaxed"
+    }
+    ]);
 };
 
 exports.create_a_person = function(req, res) {
@@ -11,9 +28,9 @@ exports.create_a_person = function(req, res) {
 exports.get_a_person = function(req, res) {
     res.json({
         "name": "Michael Dwyer",
-        "avatar": 1,
-        "position-X": 40,
-        "position-Y": 50,
+        "email": "mhdwyer@hotmail.com",
+        "positionTop": 250,
+        "positionLeft": 380,
         "status": 1,
         "availability": "available",
         "mood": "relaxed"
